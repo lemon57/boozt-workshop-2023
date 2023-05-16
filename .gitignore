@@ -1,0 +1,6 @@
+.DS_Store
+FakeDataPHP
+mysql
+*.sql
+*.spf
+*.php
