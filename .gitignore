@@ -1,7 +1,7 @@
 .DS_Store
 FakeDataPHP
 mysql
-*.sql
+/*.sql
 *.spf
 *.php
 *.tar.gz
