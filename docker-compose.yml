@@ -3,8 +3,16 @@ services:
   mysql:
     image: mysql:8.0
     ports:
-      - 127.0.0.1:8803:3306
+      - 127.0.0.1:8805:3306
     volumes:
       - ./mysql:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: index
+  mysqlsetup:
+    image: mysql:8.0
+    volumes:
+      - ./src/:/home/src/
+    depends_on:
+      - mysql
+    restart: "no"
+    entrypoint: ['/bin/bash', '-c', 'sleep 10 && mysql -h mysql -uroot -pindex < "/home/src/create_db.sql"']
