@@ -4,3 +4,5 @@ mysql
 *.sql
 *.spf
 *.php
+*.tar.gz
+*.tar
