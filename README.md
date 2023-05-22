@@ -46,13 +46,13 @@ Using mysql-base docker container and dummy test database:
   - DBeaver,
   - or any other
 
-9. Using your DB management tool connect to your test DB.
+9. Using your DB management tool connect to your test DB.    
   Connection specs:
   - host: 127.0.0.1
   - username: root
   - password: index
-  - database: index_test
-  Select `index_test` DB and check that you have two tables `orders` and `customers` with data.
+  - database: index_test     
+  Select `index_test` DB and check that you have two tables `orders` and `customers` with data.    
 
-Now your work envoironment for the workshop is ready. 
+Now your work envoironment for the workshop is ready.    
 If you have any questions just ask in the channel `pt-conf-2023-workshop-db-index`.
