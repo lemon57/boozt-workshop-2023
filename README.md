@@ -1,4 +1,4 @@
-# boozt-workshop-2023 - DB indexing :card-index-dividers:
+# boozt-workshop-2023 - DB indexing 📇
 
 ### Useful info:
 - Our workshop slack channel is `pt-conf-2023-workshop-db-index`.   
@@ -54,5 +54,5 @@ Using mysql-base docker container and dummy test database:
   - database: index_test     
   Select `index_test` DB and check that you have two tables `orders` and `customers` with data.    
 
-Now your work envoironment for the workshop is ready.    
+Now your work envoironment for the workshop is ready. 🍾    
 If you have any questions just ask in the channel `pt-conf-2023-workshop-db-index`.
