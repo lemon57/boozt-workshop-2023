@@ -1,7 +1,6 @@
 .DS_Store
 FakeDataPHP
 mysql
-exercises
 /*.sql
 *.spf
 *.php
